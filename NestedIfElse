@@ -1,0 +1,97 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPZadimaGANVcIwGw5q6xwW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LebronJamesLarido/CPEN-21A-PLD-1-2/blob/main/NestedIfElse\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Nested If Else\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "ZRAsw8oPYCVD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Enter a number:\")\n",
+        "x = int(input())\n",
+        "if x>10:\n",
+        "  print(\"above ten\")\n",
+        "  if x<20:\n",
+        "    print(\"below twenty\")\n",
+        "  else:\n",
+        "    print(\"above twenty\")\n",
+        "    if x<30:\n",
+        "      print(\"below thirty\")\n",
+        "    else:\n",
+        "      print(\"above thirty\")\n",
+        "      if x<40:\n",
+        "        print(\"below forty\")\n",
+        "      else:\n",
+        "        print(\"above forty\")\n",
+        "        if x<50:\n",
+        "          print(\"below fifty\")\n",
+        "        else:\n",
+        "          print(\"above fifty\")  "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3spteyeTansD",
+        "outputId": "a5b1afd9-0bf0-462c-eb3a-471f39cb263a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number:\n",
+            "51\n",
+            "above ten\n",
+            "above twenty\n",
+            "above thirty\n",
+            "above forty\n",
+            "above fifty\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "nAy4bwlPc_HX"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
